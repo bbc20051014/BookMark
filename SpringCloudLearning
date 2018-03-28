@@ -1,1 +1,6 @@
 https://github.com/forezp/SpringCloudLearning
+
+实际情况的确验证了我们的猜想。那么我们得出这几种maven仓库的优先级别为：
+
+本地仓库 >profile > pom中的repository > mirror
+http://ttxsj.iteye.com/blog/2022686
